@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            width: 300px;
+            height: 300px;
+            border: 10px solid greenyellow;
+            border-radius: 20px;
+            position: relative;
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-detail{
+            position:absolute;
+            width: 300px;
+            height: 300px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detail{
+            display:block;
+           
+        }
+        .photo-frame:hover .photo-detail p{
+            color: white;
+        }
+        .photo-frame:hover .photo-detail siund{
+            color: gray;
+        }
+        .song{
+            height: 100px;
+            width: 200px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>My Dear Priyo</h1>
+   <section class="photo-album">
+    <div class="photo-frame">
+        <div class="photo">
+           <img src="images/swarna.png" alt="">
+        </div>
+        <div class="div">
+            <div class="photo-detail">
+                <h3> My dear laxmi devi </h3>
+                <p>Holy love never leaves a thousand dreams dear. Our love is truly pure. no strom can never create distance between us. No matter how bad time comes, we will solve it together in life, I'll not tarnish the sacred love by rinning away from fear <span>👨‍👩‍👧‍👧</span> </p>
+                <div class="sound">
+                    <audio controls src="media/heartbeat-21649.mp3"></audio>
+                </div>
+                <div class="song">
+                    <video controls src="media/Black and Orange Minimalist Happy Birthday Instagram Story Video.mp4"></video>
+                </div>
+                    </div>
+                   
+            </section>
+        
+
+  
+
+    
+</body>
+</html>
